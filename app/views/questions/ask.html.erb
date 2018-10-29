@@ -1,13 +1,12 @@
 
-<div class="countainer">
+<div class="container">
   <h1>Stupid question</h1>
   <h3>Ask your coach anything:</h3>
   <div class="row">
     <div class="col-xs-12 col-lg-12">
-      <form-inline action="/answer" method="get">
-        <input id="input" type="text" name="question" placeholder="your question?">
-        <a href="#" class="btn btn-info">Ask</a>
-        <!-- <input type="submit"> -->
+      <form action="/answer" method="get">
+        <input type="text" name="question">
+        <input type="submit">
       </form>
     </div>
   </div>
